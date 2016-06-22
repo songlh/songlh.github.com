@@ -1,0 +1,338 @@
+ACM Digital Library
+(updated on 06/11/2016)
+
+Understanding and detecting real-world performance bugs 40
+    Title Understanding and detecting real-world performance bugs
+      URL http://dl.acm.org//citation.cfm?id=2254075&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 40
+
+Synthesizing software verifiers from proof rules 35
+    Title Synthesizing software verifiers from proof rules
+      URL http://dl.acm.org//citation.cfm?id=2254112&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 35
+
+Efficient state merging in symbolic execution 32
+    Title Efficient state merging in symbolic execution
+      URL http://dl.acm.org//citation.cfm?id=2254088&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 32
+
+Compiling a high-level language for GPUs: (via language support for architectures and compilers) 29
+    Title Compiling a high-level language for GPUs: (via language support for architectures and compilers)
+      URL http://dl.acm.org//citation.cfm?id=2254066&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 29
+
+Fast and precise hybrid type inference for JavaScript 25
+    Title Fast and precise hybrid type inference for JavaScript
+      URL http://dl.acm.org//citation.cfm?id=2254094&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 25
+
+Test-case reduction for C compiler bugs 24
+    Title Test-case reduction for C compiler bugs
+      URL http://dl.acm.org//citation.cfm?id=2254104&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 24
+
+Automated error diagnosis using abductive inference 22
+    Title Automated error diagnosis using abductive inference
+      URL http://dl.acm.org//citation.cfm?id=2254087&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 22
+
+Type-directed completion of partial expressions 19
+    Title Type-directed completion of partial expressions
+      URL http://dl.acm.org//citation.cfm?id=2254098&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 19
+
+Multicore acceleration of priority-based schedulers for concurrency bug detection 19
+    Title Multicore acceleration of priority-based schedulers for concurrency bug detection
+      URL http://dl.acm.org//citation.cfm?id=2254128&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 19
+
+Proving acceptability properties of relaxed nondeterministic approximate programs 19
+    Title Proving acceptability properties of relaxed nondeterministic approximate programs
+      URL http://dl.acm.org//citation.cfm?id=2254086&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 19
+
+Chimera: hybrid program analysis for determinism 18
+    Title Chimera: hybrid program analysis for determinism
+      URL http://dl.acm.org//citation.cfm?id=2254119&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 18
+
+RockSalt: better, faster, stronger SFI for the x86 18
+    Title RockSalt: better, faster, stronger SFI for the x86
+      URL http://dl.acm.org//citation.cfm?id=2254111&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 18
+
+Synchronising C/C++ and POWER 17
+    Title Synchronising C/C++ and POWER
+      URL http://dl.acm.org//citation.cfm?id=2254102&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 17
+
+Algorithmic profiling 16
+    Title Algorithmic profiling
+      URL http://dl.acm.org//citation.cfm?id=2254074&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 16
+
+SuperC: parsing all of C by taming the preprocessor 16
+    Title SuperC: parsing all of C by taming the preprocessor
+      URL http://dl.acm.org//citation.cfm?id=2254103&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 16
+
+A dynamic program analysis to find floating-point accuracy problems 15
+    Title A dynamic program analysis to find floating-point accuracy problems
+      URL http://dl.acm.org//citation.cfm?id=2254118&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 15
+
+Scalable and precise dynamic datarace detection for structured parallelism 15
+    Title Scalable and precise dynamic datarace detection for structured parallelism
+      URL http://dl.acm.org//citation.cfm?id=2254127&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 15
+
+Race detection for web applications 15
+    Title Race detection for web applications
+      URL http://dl.acm.org//citation.cfm?id=2254095&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 15
+
+Dynamic synthesis for relaxed memory models 14
+    Title Dynamic synthesis for relaxed memory models
+      URL http://dl.acm.org//citation.cfm?id=2254115&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 14
+
+Concurrent data representation synthesis 14
+    Title Concurrent data representation synthesis
+      URL http://dl.acm.org//citation.cfm?id=2254114&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 14
+
+Language-based control and mitigation of timing channels 13
+    Title Language-based control and mitigation of timing channels
+      URL http://dl.acm.org//citation.cfm?id=2254078&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 13
+
+Adaptive input-aware compilation for graphics engines 13
+    Title Adaptive input-aware compilation for graphics engines
+      URL http://dl.acm.org//citation.cfm?id=2254067&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 13
+
+Input-sensitive profiling 13
+    Title Input-sensitive profiling
+      URL http://dl.acm.org//citation.cfm?id=2254076&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 13
+
+Design and implementation of sparse global analyses for C-like languages 13
+    Title Design and implementation of sparse global analyses for C-like languages
+      URL http://dl.acm.org//citation.cfm?id=2254092&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 13
+
+Verifying GPU kernels by test amplification 12
+    Title Verifying GPU kernels by test amplification
+      URL http://dl.acm.org//citation.cfm?id=2254110&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 12
+
+Sound and precise analysis of parallel programs through schedule specialization 9
+    Title Sound and precise analysis of parallel programs through schedule specialization
+      URL http://dl.acm.org//citation.cfm?id=2254090&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 9
+
+Engage: a deployment management system 9
+    Title Engage: a deployment management system
+      URL http://dl.acm.org//citation.cfm?id=2254096&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 9
+
+Fully automatic and precise detection of thread safety violations 9
+    Title Fully automatic and precise detection of thread safety violations
+      URL http://dl.acm.org//citation.cfm?id=2254126&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 9
+
+Type-directed automatic incrementalization 9
+    Title Type-directed automatic incrementalization
+      URL http://dl.acm.org//citation.cfm?id=2254100&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 9
+
+Parcae: a system for flexible parallel execution 9
+    Title Parcae: a system for flexible parallel execution
+      URL http://dl.acm.org//citation.cfm?id=2254082&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 9
+
+Logical inference techniques for loop parallelization 8
+    Title Logical inference techniques for loop parallelization
+      URL http://dl.acm.org//citation.cfm?id=2254124&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 8
+
+Static analysis and compiler design for idempotent processing 8
+    Title Static analysis and compiler design for idempotent processing
+      URL http://dl.acm.org//citation.cfm?id=2254120&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 8
+
+Diderot: a parallel DSL for image analysis and visualization 8
+    Title Diderot: a parallel DSL for image analysis and visualization
+      URL http://dl.acm.org//citation.cfm?id=2254079&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 8
+
+Dynamic trace-based analysis of vectorization potential of applications 8
+    Title Dynamic trace-based analysis of vectorization potential of applications
+      URL http://dl.acm.org//citation.cfm?id=2254108&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 8
+
+Automated synthesis of symbolic instruction encodings from I/O samples 7
+    Title Automated synthesis of symbolic instruction encodings from I/O samples
+      URL http://dl.acm.org//citation.cfm?id=2254116&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 7
+
+Polyhedra scanning revisited 6
+    Title Polyhedra scanning revisited
+      URL http://dl.acm.org//citation.cfm?id=2254123&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 6
+
+Parallelizing top-down interprocedural analyses 6
+    Title Parallelizing top-down interprocedural analyses
+      URL http://dl.acm.org//citation.cfm?id=2254091&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 6
+
+Deterministic parallelism via liquid effects 5
+    Title Deterministic parallelism via liquid effects
+      URL http://dl.acm.org//citation.cfm?id=2254071&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 5
+
+Speculative separation for privatization and reductions 5
+    Title Speculative separation for privatization and reductions
+      URL http://dl.acm.org//citation.cfm?id=2254107&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 5
+
+Self-stabilizing Java 5
+    Title Self-stabilizing Java
+      URL http://dl.acm.org//citation.cfm?id=2254099&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 5
+
+A compiler framework for extracting superword level parallelism 4
+    Title A compiler framework for extracting superword level parallelism
+      URL http://dl.acm.org//citation.cfm?id=2254106&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 4
+
+And then there were none: a stall-free real-time garbage collector for reconfigurable hardware 3
+    Title And then there were none: a stall-free real-time garbage collector for reconfigurable hardware
+      URL http://dl.acm.org//citation.cfm?id=2254068&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 3
+
+JANUS: exploiting parallelism via hindsight 3
+    Title JANUS: exploiting parallelism via hindsight
+      URL http://dl.acm.org//citation.cfm?id=2254083&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 3
+
+Speculative linearizability 3
+    Title Speculative linearizability
+      URL http://dl.acm.org//citation.cfm?id=2254072&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 3
+
+The implicit calculus: a new foundation for generic programming 2
+    Title The implicit calculus: a new foundation for generic programming
+      URL http://dl.acm.org//citation.cfm?id=2254070&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 2
+
+Synthesising graphics card programs from DSLs 1
+    Title Synthesising graphics card programs from DSLs
+      URL http://dl.acm.org//citation.cfm?id=2254080&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 1
+
+Effective parallelization of loops in the presence of I/O operations 1
+    Title Effective parallelization of loops in the presence of I/O operations
+      URL http://dl.acm.org//citation.cfm?id=2254122&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 1
+
+Reagents: expressing and composing fine-grained concurrency 0
+    Title Reagents: expressing and composing fine-grained concurrency
+      URL http://dl.acm.org//citation.cfm?id=2254084&CFID=799213787&CFTOKEN=54907702
+     Date June 2012
+Conerence PLDI '12: Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+Citations 0
