@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyond Compile-Time Safety</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fafafa;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+            min-height: 100vh;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+            padding: 40px 0;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .title {
+            font-size: 2.5rem;
+            font-weight: 300;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            letter-spacing: -0.5px;
+        }
+
+        /* Sections */
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+            display: inline-block;
+        }
+
+        /* Description */
+        .description p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #555;
+            text-align: justify;
+        }
+
+        /* People */
+        .people-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .person {
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+            transition: all 0.3s ease;
+        }
+
+        .person:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .person a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .person a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+
+        .person-name {
+            font-weight: 500;
+            color: #2c3e50;
+        }
+
+        /* Code Release */
+        .code-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .code-item {
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #3498db;
+            transition: all 0.3s ease;
+        }
+
+        .code-item a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .code-item:hover {
+            background-color: #e9ecef;
+            transform: translateX(5px);
+        }
+
+        .code-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+
+        .code-intro {
+            color: #666;
+            font-style: italic;
+        }
+
+        /* Publications */
+        .publications-list {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .publication {
+            padding: 25px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            border: 1px solid #e9ecef;
+            transition: all 0.3s ease;
+        }
+
+        .publication:hover {
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            transform: translateY(-3px);
+        }
+
+        .pub-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+
+        .pub-authors {
+            color: #666;
+            margin-bottom: 8px;
+            font-style: italic;
+        }
+
+        .pub-conference {
+            color: #3498db;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .pdf-link {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+
+        .pdf-link:hover {
+            background-color: #2980b9;
+        }
+
+        .funding-list {
+            margin-top: 20px;
+            font-size: 1.1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+                margin: 0;
+                box-shadow: none;
+            }
+
+            .title {
+                font-size: 2rem;
+            }
+
+            .section-title {
+                font-size: 1.3rem;
+            }
+
+            .people-list {
+                grid-template-columns: 1fr;
+            }
+
+            .description p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Title Section -->
+        <div class="header">
+            <h1 class="title">Beyond Compile-Time Safety: Strengthening Rust’s Ecosystem with Program Analysis and Programmability Support</h1>
+        </div>
+
+        <!-- Description Section -->
+        <section class="section">
+            <h2 class="section-title">Description</h2>
+            <div class="description">
+                <p>
+                    Rust is a relatively young programming language designed to enable the development of safe and efficient systems software. Its core philosophy is to eliminate memory and concurrency bugs through strict compile-time safety checks, while maintaining runtime performance of compiled programs comparable to C. Rust relies on LLVM as its compiler backend, which allows many existing testing tools originally developed for C/C++ to be reused for detecting bugs that escape the compiler’s safety guarantees. Thanks to its strong safety features and high performance, Rust has gained significant popularity in recent years and is increasingly adopted for building safety-critical software systems.
+                </p>
+                <p>
+                    Our work focuses on enhancing the Rust toolchain by addressing two key research questions. First, how can we identify and mitigate the programming challenges introduced by Rust’s strict safety checks? Second, how can we improve the efficiency and effectiveness of applying existing C/C++ techniques to Rust programs? Specifically, we are 1) identifying programming challenges caused by Rust’s safety checks and addressing them through novel visualization techniques, 2) improving the effectiveness of existing test input generation techniques for Rust, 3) accelerating dynamic bug detection and failure diagnosis methods, and 4) developing automated bug-fixing techniques for issues detected by both Rust’s safety checks and dynamic bug detection tools.
+                </p>
+            </div>
+        </section>
+
+        <!-- People Section -->
+        <section class="section">
+            <h2 class="section-title">People</h2>
+            <div class="people-list">
+                <div class="person">
+                    <div class="person-name"><a href="https://songlh.github.io/">Linhai Song</a></div>
+                </div>
+                <div class="person">
+                    <div class="person-name"><a href="https://charlesxsh.github.io/">Shihao Xia</a></div>
+                </div>
+                <div class="person">
+                    <div class="person-name"><a href="https://burtonqin.github.io/">Boqin Qin</a></div>
+                </div>
+                <div class="person">
+                    <div class="person-name">Ziyi Zhang</div>
+                </div>
+                <div class="person">
+                    <div class="person-name">Shuofei Zhu</div>
+                </div>
+                <div class="person">
+                    <div class="person-name">Mengting He</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Code Release Section -->
+        <section class="section">
+            <h2 class="section-title">Code Release</h2>
+            <div class="code-list">
+                <div class="code-item">
+                    <div class="code-title"><a href="https://github.com/songlh/lockbud">lockbud</a></div>
+                    <div class="code-intro">A static tool suite for statically detecting memory and concurrency bugs in Rust programs. <strong>550 stars</strong></div>
+                </div>
+                <div class="code-item">
+                    <div class="code-title"><a href="https://sites.google.com/view/rust-lancet/index">Rust-lancet</a></div>
+                    <div class="code-intro">A tool that automatically fixes Rust’s compilation errors due to violating ownership rules.</div>
+                </div>
+                <div class="code-item">
+                    <div class="code-title"><a href="https://github.com/system-pclub/rust-programming-challenges">Rust-programming-challenges</a></div>
+                    <div class="code-intro">A dataset constructed to understand Rust’s programming challenges.</div>
+                </div>
+                <div class="code-item">
+                    <div class="code-title"><a href="https://github.com/system-pclub/VRLifeTime">VRLifeTime</a></div>
+                    <div class="code-intro">An IDE plugin that visualizes a Rust variable’s lifetime scope.</div>
+                </div>
+                <div class="code-item">
+                    <div class="code-title"><a href="https://github.com/system-pclub/rust-study">Rust-study</a></div>
+                    <div class="code-intro">A dataset constructed to understand memory and concurrency issues in Rust programs. <strong>97 stars</strong></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section class="section">
+            <h2 class="section-title">Publications</h2>
+            <div class="publications-list">
+                <div class="publication">
+                    <div class="pub-title">Understanding and Detecting Real-World Safety Issues in Rust <a href="https://songlh.github.io/paper/rust-tse.pdf">[preprint]</a></div>
+                    <div class="pub-authors">Boqin Qin<sup>S</sup>, Yilun Chen, Haopeng Liu, Hua Zhang, Qiaoyan Wen, Linhai Song, and Yiying Zhang</div>
+                    <div class="pub-conference">TSE'2024</div>
+                </div>
+                <div class="publication">
+                    <div class="pub-title">Rust-lancet: Automated Ownership-Rule-Violation Fixing with Behavior Preservation <a href="https://songlh.github.io/paper/lancet.pdf">[preprint]</a></div>
+                    <div class="pub-authors">Wenzhang Yang, Linhai Song, and Yinxing Xue</div>
+                    <div class="pub-conference">ICSE'2024</div>
+                </div>
+                <div class="publication">
+                    <div class="pub-title">Beyond Bot Detection: Combating Fraudulent Online Survey Takers <a href="https://songlh.github.io/paper/beyond-bot-detection.pdf">[preprint]</a></div>
+                    <div class="pub-authors">Ziyi Zhang<sup>S</sup>, Shuofei Zhu<sup>S</sup>, Jaron Mink, Aiping Xiong, Linhai Song, and Gang Wang</div>
+                    <div class="pub-conference">WWW'2022</div>
+                </div>
+                <div class="publication">
+                    <div class="pub-title">Learning and Programming Challenges of Rust: A Mixed-Methods Study <a href="https://songlh.github.io/paper/survey.pdf">[preprint]</a></div>
+                    <div class="pub-authors">Shuofei Zhu<sup>*S</sup>, Ziyi Zhang<sup>*S</sup>, Boqin Qin<sup>S</sup>, Aiping Xiong, and Linhai Song</div>
+                    <div class="pub-conference">ICSE'2022</div>
+                    <div style="font-size:0.95em;color:#888;">* both are leading authors.</div>
+                </div>
+                <div class="publication">
+                    <div class="pub-title">VRLifeTime: An IDE Tool to Avoid Concurrency and Memory Bugs in Rust <a href="https://songlh.github.io/paper/vr.pdf">[preprint]</a></div>
+                    <div class="pub-authors">Ziyi Zhang<sup>S</sup>, Boqin Qin<sup>S</sup>, Yilun Chen, Linhai Song, and Yiying Zhang</div>
+                    <div class="pub-conference">Demo@CCS'2020</div>
+                </div>
+                <div class="publication">
+                    <div class="pub-title">Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs <a href="https://songlh.github.io/paper/rust-study.pdf">[preprint]</a></div>
+                    <div class="pub-authors">Boqin Qin<sup>*S</sup>, Yilun Chen<sup>*</sup>, Zeming Yu<sup>S</sup>, Linhai Song, and Yiying Zhang</div>
+                    <div class="pub-conference">PLDI'2020</div>
+                    <div style="font-size:0.95em;color:#888;">* both are leading authors.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Funding</h2>
+            <div class="funding-list">
+                <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1955965&HistoricalAwards=false">SaTC: CORE: Small: Collaborative: Understanding and Detecting Memory Bugs in Rust</a>
+                <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2145394&HistoricalAwards=false">CAREER: Rethinking Toolchain Design for Rust</a>
+            </div>
+
+        </section>
+    </div>
+</body>
+</html>
