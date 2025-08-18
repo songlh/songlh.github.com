@@ -1,27 +1,22 @@
-Dr. Linhai Song is seeking ambitious, self-motivated 
-PhD students to join his group starting Fall 2018. 
+Dr. Linhai Song is recruiting highly motivated and ambitious PhD 
+students and Postdoctoral researchers to join his group starting 
+in Fall 2025.
 
-Research Areas: 
+Research Areas:
 
-- Program analysis. Analyze software behavior to  
-automatically uncover correctness, performance, and security bugs. 
+- Security of Computing Infrastructure
 
-- Applied deep learning. Explore how to leverage deep learning
-to solve traditional problems in programming languages and program
-analysis. 
+- AI Operating Systems (AI OS)
 
-Bio 
-Dr. Linhai Song is an Assistant Professor of Information Science
-and Technology at the Pennsylvania State University. He received 
-his PhD from University of Wisconsin-Madison. 
+- Novel Programming Languages
 
-For more information, please visit the following URLs: 
+About Dr. Song
+Dr. Linhai Song is a Professor at the Institute of Computing Technology, 
+Chinese Academy of Sciences. He received his PhD from the University 
+of Wisconsin–Madison.
+
+For more information, please visit:
 https://songlh.github.io/
 
-If you are interested in joining Dr. Song's research group, please 
-apply to the PSU PhD program: 
-https://ist.psu.edu/application/grad 
-
-For any questions regarding our research group, please 
-contact Dr. Song at 
-songlh.recruiting@gmail.com
+For inquiries regarding research opportunities in the group, 
+please contact Dr. Song at: songlinhai@ict.ac.cn
